@@ -13,23 +13,23 @@ public class Fixacao1Ex5 {
 		int cod1, cod2, qtd1, qtd2;
 		double price1, price2, totalPc1, totalPc2, total;
 		
-		System.out.println("Informe o código da peça1: ");
+		System.out.println("Informe o cÃ³digo da peÃ§a1: ");
 		cod1 = sc.nextInt();
 		
-		System.out.println("Informe a quantidade de peças: ");
+		System.out.println("Informe a quantidade de peÃ§as: ");
 		qtd1 = sc.nextInt();
 		
-		System.out.println("Informe o valor de cada peça: ");
+		System.out.println("Informe o valor de cada peÃ§a: ");
 		price1 = sc.nextDouble();
 		
 		
-		System.out.println("Informe o código da peça2: ");
+		System.out.println("Informe o cÃ³digo da peÃ§a2: ");
 		cod2 = sc.nextInt();
 		
-		System.out.println("Informe a quantidade de peças: ");
+		System.out.println("Informe a quantidade de peÃ§as: ");
 		qtd2 = sc.nextInt();
 		
-		System.out.println("Informe o valor de cada peça: ");
+		System.out.println("Informe o valor de cada peÃ§a: ");
 		price2 = sc.nextDouble();
 		
 		
@@ -38,31 +38,15 @@ public class Fixacao1Ex5 {
 				
 		total = qtd1 * price1 + qtd2 * price2;
 		
-		System.out.println("cod Peça 1: " + cod1);
+		System.out.println("cod PeÃ§a 1: " + cod1);
 		System.out.println("Total: " + totalPc1);
-		System.out.println("cod Peça 2: " + cod2);
+		System.out.println("cod PeÃ§a 2: " + cod2);
 		System.out.println("Total: " + totalPc2);
 		
-		//System.out.printf("Valor total de cada peça: %.2f  %.2f  %n",  totalPc1, totalPc2);
+		//System.out.printf("Valor total de cada peÃ§a: %.2f  %.2f  %n",  totalPc1, totalPc2);
 		
 		System.out.printf("Total a Pagar: %.2f%n", total);
-		System.out.println("teste commit");
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("teste commit");	
 		
 		sc.close();
 	}
