@@ -46,6 +46,7 @@ public class Fixacao1Ex5 {
 		//System.out.printf("Valor total de cada peça: %.2f  %.2f  %n",  totalPc1, totalPc2);
 		
 		System.out.printf("Total a Pagar: %.2f%n", total);
+		System.out.println("teste commit");
 
 		
 		
