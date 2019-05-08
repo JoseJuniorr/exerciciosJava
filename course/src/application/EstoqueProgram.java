@@ -26,6 +26,12 @@ public class EstoqueProgram {
 		Product product = new Product(name, price);
 		
 		
+		product.setName("PC");
+		System.out.println("Updated name:" + product.getname());
+		
+		product.setPrice(1.200);
+		System.out.println("Updated price:" + product.getPrice());
+		
 		
 		System.out.println();
 		System.out.println("Product data: " + product.toString());
